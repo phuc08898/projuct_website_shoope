@@ -1,0 +1,25 @@
+.gird-header-register-img-colum-6{
+    padding-left: 9px;
+    padding-right: 9px;
+    width:50%;
+    background-color: aqua;
+
+}
+.gird-header-register-helep-colum-6{
+    padding-left: 9px;
+    padding-right: 9px;
+    width:50%;
+    background-color: bisque;
+   
+}
+.img-shope-register{
+    display: flex;
+    align-items: center;
+}
+.img-shope-register-item{
+    font-size: 2.3rem;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+   
+}
