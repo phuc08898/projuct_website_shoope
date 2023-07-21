@@ -8,6 +8,10 @@
     
 
 }
+.item-link{
+    text-decoration: none;
+    color: var(--white-color);
+}
 *{
     box-sizing: inherit;
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ĐĂNG KÍ</title>
+    <title>ĐĂNG NHẬP</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css ">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
@@ -24,7 +24,7 @@
                 <div class="gird-header-register-img-colum-6">
                     <div class="img-shope-register">
                         <a href="./index.html"><img src="./assets/img/logoshope.png" alt=""></a>
-                        <span class="img-shope-register-item-dki"> Đăng Kí</span>
+                        <span class="img-shope-register-item-dki"> Đăng nhập</span>
     
                     </div>
     
@@ -45,18 +45,15 @@
             <div class="grid__row">
                 <div class="container-regster-element-img gird-header-register-img-colum-6 " style="background-image: url(./assets/img/dkishope.png);"></div>
                 <div class="regster-element-user-input">
-                    <span class="img-shope-register-item-dki" > Đăng Kí </span>
+                    <span class="img-shope-register-item-dki" > Đăng Nhập </span>
                     <div class="user-input">
-                        <input type="text" placeholder="Tên Tài Khoản" class="user-input-item">
+                        <input type="text" placeholder="Tên Đăng Nhập" class="user-input-item">
                     </div>
                     <div class="user-input wrap-regester">
                         <input type="password" placeholder="Mật Khẩu" class="user-input-item">
                     </div>
-                    <div class="user-input wrap-regester">
-                        <input type="password" placeholder="Nhập Lại Mật Khẩu" class="user-input-item">
-                    </div>
                     <div class="btn-regster wrap-regester user-input">
-                       <a href="./index.html" class="btn-link">Đăng Kí</a>
+                       <a href="./index.html" class="btn-link">Đăng Nhập</a>
                     </div>
                     <div class="text-name">
                         <span class="text">Hoặc đăng kí</span>
@@ -70,8 +67,8 @@
                             Google </button>
                     </div>
                     <div class="has-account">
-                        <span class="name-notify"> Bạn đã có tài khoản?</span> 
-                        <a href="./login.html" class="name-notify-link"> Đăng Nhập</a>
+                        <span class="name-notify"> Bạn chưa có tài khoản?</span> 
+                        <a href="./register.html" class="name-notify-link"> Đăng Kí</a>
 
                     </div>
 
@@ -236,7 +233,7 @@
     <script>
         const btnDki = document.querySelector('.btn-link')
         function showNotify(){
-            alert("Đăng kí thành công ")
+            alert("Đăng nhập thành công ")
         }
         btnDki.addEventListener('click',showNotify)
 

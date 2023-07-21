@@ -1327,7 +1327,7 @@ button.btn.home_filter-btn {
 
 }
 .footer__dowload-qr{
-    width: 120px;
+    width: 75px;
     object-fit:contain;
    border: 1px solid var(--boder-color);
 
